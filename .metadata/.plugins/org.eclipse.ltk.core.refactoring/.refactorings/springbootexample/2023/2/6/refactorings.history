@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springbootexample/src/main/resources/webapp/index.jsp&apos; to &apos;home.jsp&apos;" description="Rename resource &apos;index.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/webapp/index.jsp" name="home.jsp" stamp="1675568098772" updateReferences="true"/>
+</session>

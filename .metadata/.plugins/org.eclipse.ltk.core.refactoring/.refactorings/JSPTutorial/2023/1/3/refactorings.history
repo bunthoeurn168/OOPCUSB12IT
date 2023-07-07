@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSPTutorial/src/main/webapp/WEB-INF/lib/javax.servlet.jsp-api-2.3.3 (1).jar&apos; to &apos;javax.servlet.jsp-api-2.3.3.jar&apos;" description="Rename resource &apos;javax.servlet.jsp-api-2.3.3 (1).jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/lib/javax.servlet.jsp-api-2.3.3 (1).jar" name="javax.servlet.jsp-api-2.3.3.jar" stamp="1673750113663" updateReferences="true"/>
+</session>

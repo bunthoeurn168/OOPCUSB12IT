@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;formInput.html&apos; to &apos;views&apos;&#x0D;&#x0A;- Original project: &apos;JSPApp&apos;&#x0D;&#x0A;- Destination element: &apos;views&apos;&#x0D;&#x0A;- Original element: &apos;formInput.html&apos;" description="Copy file" element1="src/main/webapp/demo/formInput.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1673716412328" target="/JSTLTagApp/src/main/webapp/views" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;springmybatis&apos;&#x0D;&#x0A;- Original project: &apos;springmybatis&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     edit-employee.jsp&#x0D;&#x0A;     list-employee.jsp" description="Delete elements" element1="src/main/webapp/WEB-INF/views/edit-employee.jsp" element2="src/main/webapp/WEB-INF/views/list-employee.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1674955080871" subPackages="false" version="1.0"/>
+</session>

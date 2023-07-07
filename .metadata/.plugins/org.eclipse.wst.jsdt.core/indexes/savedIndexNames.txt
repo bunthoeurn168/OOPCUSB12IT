@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+D:\Teaching PCCFPI\OOP\OOPCUSB12IT\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+613174029.index
+989791566.index
+1319854513.index
+4175600569.index
+2916238485.index
+2299389076.index
+310231679.index
+3234756292.index
+1829118003.index
+2243490388.index
+2395710174.index
+2276258948.index
+3292098830.index

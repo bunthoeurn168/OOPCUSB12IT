@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.school.mapper.EmployeeMapper">
+
+	<resultMap type="com.school.bean.Employee" id="selectEmployee">
+		<id property="id" column="id" />
+		<result property="name" column="name" />
+		<result property="salary" column="salary" />
+	</resultMap>
+
+	<select id="select" parameterType="com.school.bean.Employee" resultMap="selectEmployee">
+		SELECT id, name, salary
+			from employee
+			where 1 = 1
+			AND delete_id = 0
+			<if test="id != null and id != '' ">
+				AND	id = #{id}
+			</if> 
+	</select>
+	<insert id="insert" parameterType="com.school.bean.Employee" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+		insert into employee(name, salary, delete_id)
+			values (
+				#{name}, #{salary}, 0
+			)
+	</insert>
+	<update id="update" parameterType="com.school.bean.Employee">
+		update employee set
+			name = #{name},
+			salary = #{salary}
+			where id = #{id}
+	</update>
+	<delete id="delete" parameterType="com.school.bean.Employee">
+		update employee set
+			delete_id = 1
+			where
+			<if test="id != null and id != '' ">
+				id = #{id}
+			</if>
+	</delete>
+</mapper>

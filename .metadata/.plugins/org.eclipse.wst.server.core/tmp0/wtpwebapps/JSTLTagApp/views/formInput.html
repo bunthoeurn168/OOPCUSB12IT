@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Input</title>
+</head>
+<body>
+	<div style="border: 1px solid black; width: 400px; padding: 10px;">
+		<form method="GET" action="formprocess.jsp">
+			User Name: <input type="text" name="username"><br>
+			Password: <input type="password" name="password"><br>
+			First Name: <input type="text" name="firstname"><br>
+			Last Name: <input type="text" name="lastname"><br>
+			Gender: <input type="radio" name="gender" value="Male"> Male
+					<input type="radio" name="gender" value="Female"> Female<br/>
+			Select country:
+			<select name = "country">
+				<option>India</option>
+				<option>Australia</option>
+				<option>Germany</option>
+				<option>Spain</option>
+				<option>Canada</option>
+			</select>
+			<br/>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+</body>
+</html>

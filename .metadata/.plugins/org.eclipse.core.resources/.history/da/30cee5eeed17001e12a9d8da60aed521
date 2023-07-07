@@ -1,0 +1,43 @@
+package org.school.SpringJDBCSample;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        StudentDAOImpl studentDAOImpl = context.getBean(StudentDAOImpl.class);
+        
+		/*
+		 * System.out.println("\nCreate Student: "); Student student = new
+		 * Student("Sok San", 25); studentDAOImpl.createStudent(student);
+		 */
+        
+		/*
+		 * System.out.println("\nList of Students: "); for (Student s :
+		 * studentDAOImpl.getAllStudent()) { System.out.println(s); }
+		 */
+		 
+        System.out.println("\nUpdate student with ID 1");
+        Student pStudent = studentDAOImpl.getStudentById(7L);
+        pStudent.setName("Teb Kanha");
+        
+		/*
+		 * System.out.println("\nUpdate student with ID 1"); Student pStudent =
+		 * studentDAOImpl.getStudentById(1L); pStudent.setName("Teb Kanha");
+		 * studentDAOImpl.updateStudent(pStudent);
+		 * 
+		 */
+		/*
+		 * System.out.println("\nDeleting Student with ID 1"); Student studentById =
+		 * studentDAOImpl.getStudentById(1L); 
+		 * studentDAOImpl.deleteStudent(studentById);
+		 */
+        
+    }
+}

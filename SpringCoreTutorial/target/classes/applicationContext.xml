@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+  
+  <!-- Input data froom Constructure -->
+  <!-- <bean id="employee" class="com.school.springcore.Employee">
+  	<constructor-arg value="101" index="0" type="int"/>
+  	<constructor-arg value="Sok San" index="1" type="String"/>
+  	<constructor-arg ref="address" index="2"/>
+  </bean>
+  
+  <bean id="employee1" class="com.school.springcore.Employee">
+  	<constructor-arg value="102" index="0" type="int"/>
+  	<constructor-arg value="Teb Kanha" index="1" type="String"/>
+  </bean> -->
+  
+  <!-- Input data from setter , getter method -->
+  <!-- <bean id="employee" class="com.school.springcore.Employee">
+  	<property name="id" value="103"></property>
+  	<property name="name" value="Sok San"></property>
+  	<property name="address" ref="address1"></property>
+  </bean>
+  <bean id="address1" class="com.school.springcore.Address">
+  	<property name="city" value="Preah Sihanouk"></property>
+  </bean> -->
+  
+  <!-- using annotatoin -->
+  <context:annotation-config/>
+  <context:component-scan base-package="org.school.SpringCoreTutorial"></context:component-scan>
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

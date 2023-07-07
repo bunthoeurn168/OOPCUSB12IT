@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSTLTagApp/src/main/webapp/form&apos; to &apos;views&apos;" description="Rename resource &apos;form&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/form" name="views" stamp="1673716349240" updateReferences="true"/>
+</session>

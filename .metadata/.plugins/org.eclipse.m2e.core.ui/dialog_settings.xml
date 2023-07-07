@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcmybatis"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcdemo"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringJDBCSample"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\JSPApp"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmybatis"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringWebmvcSample"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springwebdemo"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringWebmvcSample\src\main\webapp\WEB-INF"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringMavenWebProject\src\main\java\springwebmvcdemo\SpringMavenWebProject\App.java"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringMVC"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringMVC\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\SpringMVC\src\main\java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="schoo"/>
+			<item value="schoo.springwebmvc"/>
+		</list>
+		<list key="groupId">
+			<item value="schoo"/>
+		</list>
+		<list key="artifactId">
+			<item value="springwebmvc"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Teaching PCCFPI\OOP\springbootjpathymleaf\src\main\resources\templates\new_product.html"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcmybatis"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springwebmvc"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcwebapp"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcapp"/>
+			<item value="C:\Users\Bunthoeurn\Downloads\springbootexample"/>
+			<item value="C:\Users\Bunthoeurn\Downloads\springbootdemostration"/>
+			<item value="C:\Users\Bunthoeurn\Downloads\demo"/>
+			<item value="D:\Teaching PCCFPI\OOP\OOPCUSB12IT\springmvcmybatis\src\main\java\config\mybatis\sqlmap\Employee.xml"/>
+			<item value="D:\Teaching PCCFPI\OOP\springbootjpathymleaf"/>
+			<item value="D:\Teaching PCCFPI\OOP\springbootwebexample"/>
+			<item value="D:\Teaching PCCFPI\OOP\springbootmybatis"/>
+			<item value="D:\Teaching PCCFPI\OOP\springbootdemo"/>
+			<item value="D:\Teaching PCCFPI\OOP\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
